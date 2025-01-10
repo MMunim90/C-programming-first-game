@@ -25,13 +25,15 @@ int main()
         }
         else
         {
-            printf("Congrats!!, This is the exact number.\n\n");
+            printf("\nCongrats!!!, This is the exact number.\a\n");
         }
         no_of_guesses++;
     }
     while(guessed!=randomnumber);
 
-    printf("You guess the number in %d guesses", no_of_guesses);
+    printf("You guess the number in ( %d ) guesses.\n", no_of_guesses);
+    printf("Bye Bye, Thanks for playing.\n\n");
+    printf("Developed by: MMunim\n");
 
     return 0;
 }
